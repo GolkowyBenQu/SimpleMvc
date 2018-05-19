@@ -1,0 +1,24 @@
+{
+    "name": "apsensa/mvc",
+    "description": "mvc small framework",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Przemyslaw Golec",
+            "email": "golec.przemyslaw@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "lib/Core",
+            "App\\": "src"
+        }
+    }
+}
